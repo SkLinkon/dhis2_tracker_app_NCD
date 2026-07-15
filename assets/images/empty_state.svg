@@ -1,0 +1,16 @@
+<svg width="280" height="180" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="400" height="250" rx="12" fill="#F8FAFC"/>
+    <g transform="translate(100, 50)">
+        <circle cx="100" cy="60" r="30" fill="#CBD5E1"/>
+        <path d="M100 100 C60 100 40 160 40 180 L160 180 C160 160 140 100 100 100Z" fill="#CBD5E1"/>
+        <circle cx="40" cy="60" r="15" fill="#FDA4AF" opacity="0.8">
+            <animate attributeName="cy" values="60;55;60" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="160" cy="50" r="18" fill="#7DD3FC" opacity="0.8">
+            <animate attributeName="cy" values="50;45;50" dur="4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="140" cy="110" r="12" fill="#34D399" opacity="0.8">
+            <animate attributeName="cy" values="110;105;110" dur="2.5s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+</svg>
